@@ -80,13 +80,12 @@ public class Pato {
 
     @Override
     public String toString() {
-        return "Pato{" 
-                + "nombrePato=" + nombrePato 
-                + ", edadPato=" + edadPato 
-                + ", razaPato=" + razaPato 
-                + ", especiePato=" + especiePato 
-                + ", pesoPato=" + pesoPato 
+        return "Pato{"
+                + "nombrePato : " + nombrePato
+                + ", edadPato=" + edadPato
+                + ", razaPato=" + razaPato
+                + ", especiePato=" + especiePato
+                + ", pesoPato=" + pesoPato
                 + ", tamanoPato=" + tamanoPato;
     }
-
 }
