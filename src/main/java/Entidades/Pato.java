@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main;
+package Entidades;
 
 /**
  *
@@ -82,10 +82,10 @@ public class Pato {
     public String toString() {
         return "Pato{"
                 + "nombrePato : " + nombrePato
-                + ", edadPato=" + edadPato
-                + ", razaPato=" + razaPato
-                + ", especiePato=" + especiePato
-                + ", pesoPato=" + pesoPato
-                + ", tamanoPato=" + tamanoPato;
+                + ", edadPato :" + edadPato
+                + ", razaPato : " + razaPato
+                + ", especiePato : " + especiePato
+                + ", pesoPato : " + pesoPato
+                + ", tamanoPato : " + tamanoPato;
     }
 }

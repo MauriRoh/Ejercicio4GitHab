@@ -1,3 +1,5 @@
+package Entidades;
+
 public class Gallo{
   Integer altura;
   Integer peso;
