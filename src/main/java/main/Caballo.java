@@ -43,6 +43,11 @@ public class Caballo {
     public void setDescendencia(String Descendencia) {
         this.Descendencia = Descendencia;
     }
+
+    @Override
+    public String toString() {
+        return "Caballo{" + "Id=" + Id + ", nombre=" + nombre + ", Descendencia=" + Descendencia + '}';
+    }
     
     
 }
