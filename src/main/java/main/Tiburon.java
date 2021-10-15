@@ -39,6 +39,11 @@ public class Tiburon {
     public void setLongitud(Integer longitud) {
         this.longitud = longitud;
     }
+
+    @Override
+    public String toString() {
+        return "Tiburon{" + "raza=" + raza + ", peso=" + peso + ", longitud=" + longitud + '}';
+    }
     
       
     
