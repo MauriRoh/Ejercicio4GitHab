@@ -10,22 +10,24 @@ package main;
  * @author Homero
  */
 public class Pato {
-    
+
     private String nombrePato;
     private int edadPato;
     private String razaPato;
     private String especiePato;
     private double pesoPato;
+    private String tamanoPato;
 
     public Pato() {
     }
 
-    public Pato(String nombrePato, int edadPato, String razaPato, String especiePato, double pesoPato) {
+    public Pato(String nombrePato, int edadPato, String razaPato, String especiePato, double pesoPato, String tamanoPato) {
         this.nombrePato = nombrePato;
         this.edadPato = edadPato;
         this.razaPato = razaPato;
         this.especiePato = especiePato;
         this.pesoPato = pesoPato;
+        this.tamanoPato = tamanoPato;
     }
 
     public String getNombrePato() {
@@ -68,13 +70,17 @@ public class Pato {
         this.pesoPato = pesoPato;
     }
 
+    public String getTamanoPato() {
+        return tamanoPato;
+    }
+
+    public void setTamanoPato(String tamanoPato) {
+        this.tamanoPato = tamanoPato;
+    }
+
     @Override
     public String toString() {
-        return "Pato : " 
-                + "nombrePato=" + nombrePato 
-                + ", edadPato=" + edadPato                
-                + ", razaPato=" + razaPato 
-                + ", especiePato=" + especiePato 
-                + ", pesoPato=" + pesoPato;
+        return "Pato{" + "nombrePato=" + nombrePato + ", edadPato=" + edadPato + ", razaPato=" + razaPato + ", especiePato=" + especiePato + ", pesoPato=" + pesoPato + ", tamanoPato=" + tamanoPato + '}';
     }
+
 }
